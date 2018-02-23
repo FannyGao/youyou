@@ -1,0 +1,91 @@
+@import "base.css";
+/*header*/
+header{
+    width: 100%;
+    height:0.44rem;
+    background: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    position: relative;
+}
+.jt{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.jt img{
+    display: block;
+    width: 0.12rem;
+    height: 0.2rem;
+    margin-left: 0.1rem;
+    margin-top: 0.11rem;
+}
+header h3{
+    width: 2.32rem;
+    text-align: center;
+    overflow: hidden;
+    line-height: 0.44rem;
+    font-size: 0.18rem;
+    color: #4C84FC;
+    margin: 0 auto;
+    font-weight: normal;
+}
+body{
+    background:#f5f4f4;
+}
+/*section_1*/
+.section_1{
+    width: 100%;
+    height: auto;
+}
+.section_1>p{
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.15rem;
+    color: #333333;
+    text-align: center;
+}
+.travelImg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.travelImg a{
+    display: block;
+    width: 46%;
+    height: 1.91rem;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.1rem;
+}
+.travelImg a img{
+    display: block;
+    height: 100%;
+}
+.travelImg a .jb{
+    width: 100%;
+    height: 0.8rem;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: url("../img/images/jianbian.png") repeat-x;
+    background-position: bottom;
+}
+.Img_text{
+    position: absolute;
+    top:0.1rem;
+    left: 0.1rem;
+}
+.Img_text h1{
+    font-size: 0.18rem;
+    color: white;
+}
+.Img_text h5{
+    font-size: 0.14rem;
+    color: white;
+    font-weight: normal;
+}
